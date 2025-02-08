@@ -5,6 +5,7 @@
     <v-main>
       <MessageMiniDonitas/>
       <MenuProducts />
+      <CarrouselMiniDonitas />
     </v-main>
 
     <FooterMiniDonitas />
@@ -12,16 +13,19 @@
 </template>
 
 <script>
+
 import AppBarMiniDonitas from './components/AppBarMiniDonitas';
 import MessageMiniDonitas from './components/MessageMiniDonitas';
 import MenuProducts from './components/MenuProducts';
+import CarrouselMiniDonitas from './components/CarrouselMiniDonitas';
 import FooterMiniDonitas from './components/FooterMiniDonitas';
+
 
 export default {
   name: 'App',
 
   components: {
-    AppBarMiniDonitas, MessageMiniDonitas, MenuProducts, FooterMiniDonitas
+    AppBarMiniDonitas, MessageMiniDonitas, MenuProducts, CarrouselMiniDonitas, FooterMiniDonitas,
   },
 
   data: () => ({
