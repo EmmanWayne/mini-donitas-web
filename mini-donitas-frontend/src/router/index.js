@@ -1,11 +1,11 @@
 import Vue from "vue";
 import VueRouter from "vue-router";
-import Products from "@/views/Products.vue";
+import App from "@/App.vue";
 
 Vue.use(VueRouter);
 
 const routes = [
-  { path: "/", component: Products },
+  { path: "/", component: App },
 ];
 
 export default new VueRouter({ mode: "history", routes });
