@@ -1,16 +1,18 @@
 <template>
   <!-- Barra de navegación -->
-  <v-app-bar app color="pink lighten-3" dark height="120px"
-    class="d-flex flex-row justify-center align-center text-center">
-    <v-container class="d-flex flex-column justify-center align-center text-center">
-    <v-card-title class="white--text text-h4 font-weight-bold justify-center align-center text-center">
-      🍩 Mini Donitas 🍩
-    </v-card-title>
+  <v-container class=" elevation-24 rounded-lg d-flex flex-column justify-center align-center text-center">
+    <v-row no-gutters class="d-flex justify-center align-center text-center">
+      <v-app-bar app color="pink lighten-3" dark height="150px"
+        class="d-flex flex-row justify-center align-center text-center">
 
-    
-    
+        <v-img
+          :src="'https://github.com/EmmanWayne/mini-donitas-web/blob/main/mini-donitas-products/mini_donitas_logo.png?raw=true'"
+          height="140" width="140" cover></v-img>
+
+      </v-app-bar>
+    </v-row>
   </v-container>
-  </v-app-bar>
+
 </template>
 
 <script>
